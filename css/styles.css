@@ -17,7 +17,7 @@ body {
     margin-bottom:45px;
 }
 
-.btn {
+.mailbtn {
     background: #66bfbf;
     background-image: -webkit-linear-gradient(top, #66bfbf, #0a7bc2);
     background-image: -moz-linear-gradient(top, #66bfbf, #0a7bc2);
@@ -37,7 +37,7 @@ body {
     cursor:pointer;
   }
   
-  .btn:hover {
+  .mailbtn:hover {
     background: #3cb0fd;
     background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
     background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);

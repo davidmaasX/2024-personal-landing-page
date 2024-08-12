@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #94c6d5;
     text-align: center;
     margin: 0;
     font-family: 'Merriweather', serif;
@@ -93,7 +93,6 @@ h3 {
     font-weight:bold;
 }
 
-
 p {
     color:black;
     width:100%
@@ -101,7 +100,7 @@ p {
 .bold-text{
   font-weight: 900;
   font-style: italic;
-  color:rgb(243, 91, 21);
+  color:#f35b15;
 }
 
 .profile {

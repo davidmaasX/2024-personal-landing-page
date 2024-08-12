@@ -136,15 +136,13 @@ p {
 
 #top-container h1 {
   position: absolute;
-  top: 50px; /* Adjust the top value as needed */
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 10; /* Ensure the title appears above the image */
-  color: #eaf2f6; /* Ensure the title color is visible on the image */
+  top: 75px; /* Adjust the top value as needed */
+  left: 40%;
+  /* transform: translateX(-50%); */
+  color: #11999E; 
   font-family: 'Sacramento', cursive;
   font-size: 6rem;
-  margin: 0; /* Remove default margin */
-  line-height: 1;
+  margin: 0 auto;
 }
 
 #top-container h2 {

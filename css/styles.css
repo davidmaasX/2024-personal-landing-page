@@ -129,8 +129,9 @@ height: 100%;
 filter: grayscale(1);
 border-radius: 10%;
 transition: filter 450ms ease-in-out, transform 750ms ease-out; 
-overflow: hidden;
+/* overflow: hidden; */
 transform-origin: 10% 1%;
+
 }
 
 .image-container:hover{

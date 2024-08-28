@@ -120,7 +120,7 @@ height: 300px;
 border-radius: 50%;
 overflow: hidden;
 position: relative;
-filter:drop-shadow(4px 4px 15px grey);
+/* filter:drop-shadow(4px 4px 15px grey); */
 }
 
 .image-container img {
@@ -129,12 +129,12 @@ height: 100%;
 filter: grayscale(1);
 border-radius: 10%;
 transition: filter 450ms ease-in-out, transform 750ms ease-out; 
-/* overflow: hidden; */
+overflow: hidden;
 transform-origin: 10% 1%;
 }
 
 .image-container:hover{
-filter:drop-shadow(4px 4px 15px #11999E);
+filter:drop-shadow(2px 2px 15px #11999E);
 }
 
 .image-container:hover > img {

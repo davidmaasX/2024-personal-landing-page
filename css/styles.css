@@ -114,13 +114,17 @@ display: flex;
 flex-direction: column; /* Ensure children elements are centered vertically */
 }
 
+.wrapper {
+  display: inline-block;
+  filter: drop-shadow(4px 4px 15px grey);
+}
+
 .image-container {
 width: 300px;
 height: 300px;
 border-radius: 50%;
 overflow: hidden;
 position: relative;
-/* filter:drop-shadow(4px 4px 15px grey); */
 }
 
 .image-container img {
@@ -133,7 +137,7 @@ overflow: hidden;
 transform-origin: 10% 1%;
 }
 
-.image-container:hover{
+.wrapper:hover{
 filter:drop-shadow(2px 2px 15px #11999E);
 }
 

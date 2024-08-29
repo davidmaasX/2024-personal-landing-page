@@ -200,6 +200,14 @@ scale:1.15;
   filter: drop-shadow(3px 3px 15px #11999E);
 }
 
+.right-pic:hover{
+  filter: drop-shadow(3px 3px 15px grey);
+}
+
+.left-pic:hover{
+  filter: drop-shadow(3px 3px 15px grey);
+}
+
 #htmlcssjspic {
 width: 275px;
 }
@@ -213,6 +221,10 @@ width: 150px;
   width:100%;
   padding: 1px;
   line-height:2;
+}
+
+.contact-image-container:hover{
+  filter: drop-shadow(3px 3px 5px #11999E);
 }
 
 .copyright-text {
@@ -254,4 +266,9 @@ width: 150px;
 .image-wrapper:hover{
 filter:drop-shadow(0px 0px 0px #11999E);
 }
+
+.left-pic {
+  margin: auto 25% 20px 25%;
+}
+
 }
